@@ -12,10 +12,11 @@
   <body>
     <p>Bark Coding feedback!</p>
      <textarea id="code" rows="5" cols="40" placeholder="Send a message to the dev..."></textarea>
-     <button onclick="send()">Send</button>
+     <br/>
+     <button onclick="myFunction()">Send</button>
   </body>
     <script>
-      function send() {
+      function myFunction() {
         let message = document,getElementById('code').value
         location.href = "https://github.com/mariocraft987/bark.github.io/issues/new?template=bug_report&labels=bug&title=A%20message%20to%20the%20dev&body="+message;
       }
