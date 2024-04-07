@@ -3,22 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Bark Coding Org!</title>
-    <style>
-      body {
-        font-family: arial
-      }
-    </style>
+    <link rel="stylesheet" href="src/themes/bluedodger.css">
   </head>
   <body>
-    <p>Bark Coding feedback!</p>
-     <textarea id="code" rows="5" cols="40" placeholder="Send a message to the dev..."></textarea>
-     <br/>
-     <button onclick="myFunction()">Send</button>
+    <span id="navbar"></span>
+    <div class="box">
+      <p>Bark Coding feedback!</p>
+      <textarea id="code" rows="6" cols="42" placeholder="Send a message to the dev..."></textarea>
+      <br/>
+      <button onclick="myFunction()" id="submit">Send</button>
+    </div>
+   
   </body>
-    <script>
-      function myFunction() {
-        let message = document.getElementById('code').value
-        location.href = "https://github.com/mariocraft987/bark.github.io/issues/new?template=bug_report&labels=comment&title=A%20message%20to%20the%20dev&body="+message;
-      }
-    </script>
+    <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/automatic.js"></script>
 </html>
