@@ -9,7 +9,7 @@ let mobile = window.navigator.userAgent.toLowerCase().includes("mobi");
 console.log("Exit Now! This part is used for devolopers.");
 
 // navbar
-content = '<div class="navbar"><a href="/"><img src="'+baseUrl+'/src/images/Logo.svg" alt="bark" width="25" height="25" ></a><a href="https://bark-coding.vercel.app/editor_new">create</a><a href="'+baseUrl+'/explore.html">explore</a>'
+content = '<div class="navbar"><a href="'+baseUrl+'"><img src="'+baseUrl+'/src/images/Logo.svg" alt="bark" width="25" height="25" ></a><a href="https://bark-coding.vercel.app/editor_new">create</a><a href="'+baseUrl+'/explore.html">explore</a>'
 content += '<a href="'+baseUrl+'/ideas.html">ideas</a><a href="'+baseUrl+'/about.html">about</a><a href="https://github.com/mariocraft987/bark.github.io/discussions">discuss</a>'
 // special april fools button ;)
 if (new Date().getMonth() === 3 && new Date().getDate() === 1) {
